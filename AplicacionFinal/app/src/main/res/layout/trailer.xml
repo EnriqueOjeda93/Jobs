@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"  >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Listado Canciones:"
+                android:layout_marginTop="40px"
+                android:layout_marginBottom="30px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Real Emotion (FFX-2)" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-1000 Worlds - Yuna and Lenne (FFX-2)" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-To Zanarkand" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Suketi Da Ne"
+                android:layout_marginBottom="30px"/>
+
+            <TextView
+                android:id="@+id/cancion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Reproduciendo en este momento: Real Emotion (FFX-2)" />
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play" />
+
+            <Button
+                android:id="@+id/siguiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siguiente"
+                android:enabled="false"/>
+
+
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/atras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atras"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+</LinearLayout>

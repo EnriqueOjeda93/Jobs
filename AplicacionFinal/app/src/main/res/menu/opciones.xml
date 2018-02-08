@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/introduccion"
+            android:checked="true"
+            android:icon="@drawable/moguri"
+            android:title="@string/introduccion" />
+        <item
+            android:id="@+id/trailer"
+            android:icon="@drawable/moguri"
+            android:title="@string/Canciones" />
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/personajes"
+            android:title="@string/personajes">
+            <menu>
+                <item
+                    android:id="@+id/yuna"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/yuna" />
+                <item
+                    android:id="@+id/tidus"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/tidus" />
+                <item
+                    android:id="@+id/wakka"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/wakka" />
+                <item
+                    android:id="@+id/lulu"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/lulu" />
+                <item
+                    android:id="@+id/auron"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/auron" />
+                <item
+                    android:id="@+id/rikku"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/rikku" />
+                <item
+                    android:id="@+id/kimari"
+                    android:icon="@drawable/moguri2"
+                    android:title="@string/kimari" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

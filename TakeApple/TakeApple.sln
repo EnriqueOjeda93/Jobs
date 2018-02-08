@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2801F48B-F462-370E-ADEE-C9B41AC17A96}") = "TakeApple", "Assembly-CSharp.csproj", "{2806A245-868C-7D36-2E33-DF7358D71B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2806A245-868C-7D36-2E33-DF7358D71B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2806A245-868C-7D36-2E33-DF7358D71B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2806A245-868C-7D36-2E33-DF7358D71B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2806A245-868C-7D36-2E33-DF7358D71B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
